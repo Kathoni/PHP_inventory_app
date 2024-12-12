@@ -17,6 +17,7 @@ if (isset($_GET['id'])) {
 <div class="form-container">
     <h2>Delete Item</h2>
     <form method="get">
+        <h1>Enter  per the order of your items</h1>
         <input type="number" name="id" placeholder="Item ID" required>
         <button type="submit">Delete</button>
         <a href="index.php" class="button">Exit</a>

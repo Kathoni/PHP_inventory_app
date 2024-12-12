@@ -7,7 +7,8 @@ $query = isset($_GET['query']) ? $_GET['query'] : '';
 <div class="form-container">
     <h2>Search Items</h2>
     <form method="get">
-        <input type="text" name="query" placeholder="Search" value="<?php echo $query; ?>">
+        <h1>Enter item name</h>
+        <input type="text" name="query" placeholder="Enter the name of the item" value="<?php echo $query; ?>">
         <button type="submit">Search</button><br>
         <a href="index.php" class="button">Back</a>
     </form>
