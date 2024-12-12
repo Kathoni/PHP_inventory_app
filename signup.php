@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ?>
 
 <link rel="stylesheet" href="style.css">
-<img src="images/Create a professional logo now.jpeg" alt="">
+<img src="images/Create a professional logo now.jpeg" style="width: 60%;" alt="">
 <div class="form-container">
     <h2>Signup</h2>
     <form method="post">

@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 ?>
-<img src="images/Create a professional logo now.jpeg" alt="">
+<img src="images/Create a professional logo now.jpeg" style="width: 60%;" alt="">
 <link rel="stylesheet" href="style.css">
 <div class="form-container">
     <h2>Login</h2>
